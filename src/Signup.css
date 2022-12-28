@@ -1,0 +1,24 @@
+table, td,th, tr{
+    height: 10vh;
+    width: 60vw;
+    text-align: center;
+    border: 1px solid black;
+    /* margin: auto; */
+}
+
+#submit{
+    height: 4vh;
+    width: 8vw;
+    margin-left: 500px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(0, 0, 232);
+    border: 2px solid black;
+}
+#header{
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+    text-align: center;
+}
+ 

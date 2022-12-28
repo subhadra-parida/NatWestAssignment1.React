@@ -1,38 +1,84 @@
-.App {
+#container{
+  height: 50vh;
+  width: 50vw;
+  border: 1px solid black;
+  margin: auto;
+}
+
+#mainfont1{
+  font-style: italic;
+  color: crimson;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#mainfont2{
+  font-style: italic;
+  color: crimson;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#table, td,th, tr{
+  height: 10vh;
+  width: 60vw;
+  text-align: center;
+  border: 1px solid black;
+  /* margin: auto; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#submit{
+  height: 4vh;
+  width: 8vw;
+  margin-left: 200px;
+  background-color: blue;
+  border: 2px solid black;
+}
+#header{
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: blue;
+  text-align: center;
+}
+
+#dashboard1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: blue;
+  text-align: center;
+}
+table, td,th, tr{
+  height: 10vh;
+  width: 60vw;
+  text-align: center;
+  border: 1px solid black;
+  /* margin: auto; */
+}
+
+#submit{
+  height: 4vh;
+  width: 8vw;
+  margin-left: 50px;
+  background-color: blue;
+  border: 2px solid black;
+}
+
+#header{
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: blue;
+  text-align: center;
+}
+
+#dashboard2{
+  height: 4vh;
+  width: 10vw;
   color: white;
+  border: 1px solid black;
+  background-color: blue;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#signup2{
+  height: 4vh;
+  width: 10vw;
+  color: white;
+  border: 1px solid black;
+  background-color: crimson;
 }
